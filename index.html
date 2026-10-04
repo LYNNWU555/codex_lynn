@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="Lynn 的個人首頁，分享設計、靈感與正在進行的作品。">
+  <title>Lynn — 個人首頁</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#home" aria-label="Lynn，回到首頁">lynn<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="開啟導覽選單">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="primary-nav" aria-label="主要導覽">
+        <a href="#about">關於</a>
+        <a href="#work">作品</a>
+        <a class="nav-contact" href="#contact">聯絡我 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> 嗨，很高興認識你</p>
+        <h1 id="hero-title">我是 <span>Lynn</span><span class="period">.</span><br>把想法，變成<br class="mobile-break">值得感受的事物。</h1>
+        <p class="hero-intro">我喜歡在設計、文字與日常觀察之間尋找靈感，打造簡單、清晰又有溫度的體驗。</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">看看我的作品 <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#about">多認識我一點 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="以抽象日光與植物剪影構成的裝飾插畫" role="img">
+        <div class="art-sun"></div>
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-stem stem-one"><i></i><i></i><i></i></div>
+        <div class="art-stem stem-two"><i></i><i></i></div>
+        <span class="art-caption">GROW AT YOUR OWN PACE</span>
+        <span class="art-number">01 / 03</span>
+      </div>
+      <a class="scroll-note" href="#about"><span class="scroll-line"></span>往下探索</a>
+    </section>
+
+    <section class="about section-wrap section-block" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">01 — 關於我</p>
+        <h2 id="about-title">你好，我是 Lynn。<br><span>一個持續好奇的人。</span></h2>
+      </div>
+      <div class="about-body">
+        <p>我相信好的作品，來自仔細聆聽與不斷嘗試。比起追求複雜，我更在意每個細節是否恰到好處，能不能讓人感到自在、被理解。</p>
+        <p>平常喜歡收集日常裡的小靈感，也享受把模糊的想法慢慢整理成形。這裡記錄著我正在探索的方向，以及那些值得分享的過程。</p>
+        <div class="about-tags" aria-label="關注領域"><span>視覺設計</span><span>生活觀察</span><span>持續學習</span></div>
+      </div>
+    </section>
+
+    <section class="work section-wrap section-block" id="work" aria-labelledby="work-title">
+      <div class="work-heading">
+        <div class="section-heading">
+          <p class="eyebrow">02 — 精選練習</p>
+          <h2 id="work-title">最近在做的事<span class="period">.</span></h2>
+        </div>
+        <p class="section-aside">一些小小的練習與想法，<br>也是下一段旅程的開始。</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <a class="project-link" href="#contact" aria-label="聯絡 Lynn，詢問慢日子品牌練習">
+            <div class="project-art art-peach"><span class="project-index">01</span><span class="peach-shape"></span><span class="project-word">slow<br>days<span>®</span></span><span class="mini-sun"></span></div>
+            <div class="project-meta"><div><h3>慢日子</h3><p>品牌概念 · 視覺識別</p></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+        </article>
+        <article class="project-card">
+          <a class="project-link" href="#contact" aria-label="聯絡 Lynn，詢問留白之間網頁練習">
+            <div class="project-art art-blue"><span class="project-index">02</span><div class="blue-window"><span>take a breath</span><i></i><i></i><i></i></div><span class="blue-note">A little space<br>for yourself.</span></div>
+            <div class="project-meta"><div><h3>留白之間</h3><p>網頁概念 · 數位體驗</p></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+        </article>
+        <article class="project-card">
+          <a class="project-link" href="#contact" aria-label="聯絡 Lynn，詢問採集日常編輯練習">
+            <div class="project-art art-green"><span class="project-index">03</span><span class="green-label">FIELD<br>NOTES<br><small>VOL. 01 — 04</small></span><span class="leaf leaf-a"></span><span class="leaf leaf-b"></span><span class="leaf leaf-c"></span><span class="leaf-stem"></span></div>
+            <div class="project-meta"><div><h3>採集日常</h3><p>編輯練習 · 內容企劃</p></div><span class="project-arrow" aria-hidden="true">↗</span></div>
+          </a>
+        </article>
+      </div>
+      <p class="work-note">以上為個人概念練習，內容與視覺皆為示範。</p>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner section-wrap">
+        <p class="eyebrow">03 — 保持聯絡</p>
+        <h2 id="contact-title">有個想法，<br>想一起聊聊嗎？</h2>
+        <p class="contact-copy">無論是合作提案、交換靈感，或只是打聲招呼，<br class="desktop-break">都歡迎寫信給我。</p>
+        <a class="button button-light" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+        <p class="email-note">示範信箱，發布前請替換成你的聯絡信箱。</p>
+        <span class="contact-spark spark-one" aria-hidden="true">✳</span><span class="contact-spark spark-two" aria-hidden="true">✳</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="wordmark" href="#home">lynn<span>.</span></a>
+    <p>慢慢來，也很好。 <span>© <span id="year">2026</span> Lynn</span></p>
+    <a class="back-top" href="#home">回到頂部 ↑</a>
+  </footer>
+</body>
+</html>
