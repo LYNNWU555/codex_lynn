@@ -20,3 +20,4 @@
 
 直接用瀏覽器開啟 `index.html`，即可預覽網站。
 這是我第一次從 GitHub 修改 README。
+這是我用 git fetch 學習時留下的紀錄。
